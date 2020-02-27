@@ -2,7 +2,7 @@
 
 $packageName= 'formatfactory'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://www.pcfreetime.com/public/FFSetup4.3.0.0.exe'
+$url        = 'http://www.pcfreetime.com/public/FFSetup5.0.1.0.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,7 +10,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
   softwareName  = 'formatfactory*'
-  checksum      = 'C135ED6D5A787840884E0D2E63A9DC8512D854AF0D3442DBE1EAF0EB015044D6'
+  checksum      = 'EB94D789FF06AEAA834DB0809BB5BB8B1FEC718D12A48048D758148D12F1A67D'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
