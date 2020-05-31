@@ -9,7 +9,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>5.0.1.20200314</version>
+    <version>5.2.1</version>
     <packageSourceUrl>https://github.com/n3rd4i/formatfactory</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>n3rd4i</owners>
@@ -17,11 +17,11 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>formatfactory (Install)</title>
+    <title>FormatFactory</title>
     <authors>Free Time</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://www.pcfreetime.com/formatfactory/index.php?language=en</projectUrl>
-    <iconUrl>https://cdn.statically.io/img/www.pcfreetime.com/formatfactory/images/main_logo_s.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/img/upload.wikimedia.org/wikipedia/en/1/16/FormatFactory.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
@@ -33,12 +33,14 @@
     <tags>formatfactory multimedia video audio conversion tool</tags>
     <summary>multifunctional media processing tools</summary>
     <description>
-    
+
+![](http://www.pcfreetime.com/formatfactory/images/index_mimg.jpg)
+
 FormatFactory is an ad-supported freeware multimedia converter that can convert video, audio, and picture files. It is also capable of ripping DVDs and CDs to other file formats, as well as creating .iso images. It can also join multiple video files together into one.
 
     </description>
     <releaseNotes>http://www.pcfreetime.com/formatfactory/changelog.php?language=en</releaseNotes>
-    <!-- =============================== -->      
+    <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <!--<dependencies>
