@@ -7,9 +7,9 @@ $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   fileType      = 'EXE'
-  url           = 'http://public.pcfreetime.com/FFSetup5.3.0.0.exe'
+  url           = 'http://public.pcfreetime.com/FFSetup5.3.0.1.exe'
   softwareName  = 'formatfactory*'
-  checksum      = '58dfeab7de70cd969dcc64a74555fea2afa1256654f6a58beb3b3cccbb7544c6'
+  checksum      = 'aed8e4ac70702ff1dd89e654d7182598cd1b75177c4c9063f8de8ae4e2de57c5'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
