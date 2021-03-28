@@ -5,8 +5,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileFullPath  = "$(Join-Path $ENV:TEMP 'FFSetup.exe')"
-  url           = 'http://public.pcfreetime.com/FFSetup5.6.5.0.exe'
-  checksum      = '4303a38b00d67ce37c47f5a7b3bd9fe2a8996d373e79f6975c60e96d3d8a2476'
+  url           = 'http://public.pcfreetime.com/FFSetup5.7.0.0.exe'
+  checksum      = '546c5b6af3296c1eb1dc358f0aa7702189e7599feab537204b23ef52a94e1aca'
   checksumType  = 'sha256'
 }
 $filePath = Get-ChocolateyWebFile @packageArgs
